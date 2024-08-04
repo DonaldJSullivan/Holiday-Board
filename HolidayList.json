@@ -1,0 +1,28 @@
+{
+    "holiday": [
+        {"name": "Valentine's Day", "type": 0, "pattern": 0, "month": 1, "date": 14, "leadInDays": 7, "leadOutDays": 2},
+        {"name": "Saint Patrick's Day", "type": 0, "pattern": 1, "month": 2, "date": 17, "leadInDays": 7, "leadOutDays": 2},
+        {"name": "Easter", "type": 4, "pattern": 2, "leadInDays": 7, "leadOutDays": 2},
+        {"name": "Memorial Day", "type": 1, "pattern": 3, "month": 4, "dayOfWeek": 1, "occurrence": -1, "leadInDays": 7, "leadOutDays": 2},
+        {"name": "Independence Day", "type": 0, "pattern": 3, "month": 6, "date": 4, "leadInDays": 7, "leadOutDays": 2},
+        {"name": "Halloween", "type": 0, "pattern": 4, "month": 9, "date": 31, "leadInDays": 10, "leadOutDays": 0},
+        {"name": "Thanksgiving", "type": 1, "pattern": 4, "month": 10, "dayOfWeek": 4, "occurrence": 4, "leadInDays": 14, "leadOutDays": 2},
+        {"name": "Christmas", "type": 0, "pattern": 5, "month": 11, "date": 25, "leadInDays": 24, "leadOutDays": 6}
+    ],
+    "pattern": [
+        ["#FF0000"],
+        ["#00FF00"],
+        ["#FF9900", "#FF00FF", "#FFFF00"],
+        ["#FF0000", "#FFFFFF", "#0000FF"],
+        ["#FF9900"],
+        ["#FF0000", "#FFFFFF", "#00FF00"]
+    ],
+    "endpoint": [
+        {"name": "Default", "portCount": 1, "host": "10.0.0.1"}
+    ],
+    "fixture": [
+        {"name": "Test Fixture 1", "endpoint": 0, "port": 0, "uid": "00FD:1136FFDAB147"},
+        {"name": "Test Fixture 2", "endpoint": 0, "port": 0, "uid": "00FD:1136FFDAB148"},
+        {"name": "Test Fixture 3", "endpoint": 0, "port": 0, "uid": "00FD:1136FFDAB149"}
+    ]
+}
